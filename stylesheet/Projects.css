@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+}
+
+.red{
+    color: red;
+    text-decoration: none;
+}
+
+.allheader{
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+
+.logoandmore{
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.headerComponents{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+.headerComponents a{
+    margin-left: 2%;
+    font-size: 17px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerComponents a:hover{
+    color: red;
+}
+
+.webPosition{
+    color: red;
+}
+
+.container{
+    padding-top: 4%;
+}
+
+.carrusel{
+    margin-top: -1%;
+    background-color: darkgray;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.carrusel a{
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.carrusel a:hover{
+    color: red;
+}
+
+.carrusel p{
+    font-family: 'Poppins';
+    font-size: 22px;
+    white-space: nowrap;
+}
+
+.allProjects1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.allProjects1 i{
+    margin: 1%;
+    font-size: 30px;
+}
+
+.projects{
+    padding: 4%;
+    margin: 1%;
+    width: 90%;
+}
+
+.box1{
+    background-color: white;
+    margin-top: 1%;
+    margin: 1%;
+    padding: 0.5%;
+    width: 30%;
+}
+
+.box1 hr{
+    border-color: black;
+}
+
+.box2{
+    background-color: white;
+    margin-top: 1%;
+    padding: 0.5%;
+    margin: 1%;
+    width: 30%;
+}
+
+.box2 hr{
+    border-color: black;
+}
+
+.infoaboutProjects{
+    background-image: url("/data/common_data/background3.png");
+    background-attachment: fixed; /* Esto es lo que hace que se mueva la imagen del footer */
+    min-height: 100%;
+    text-align: center;
+    padding-bottom: 1%;
+}
+
+.projectsDescription{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.projectsDescription .title{
+    margin-top: 1%;
+    font-family: 'Poppins';
+    font-size: 35px;
+    color: white;
+}
+
+.description{
+    margin-top: 1%;
+    width: 30%;
+    color: white;
+}
+
+.description p{
+    font-family: 'Poppins';
+    font-size: 18px;
+}
+
+.boxofImages{
+    margin-top: 1%;
+    margin-inline: 3%;
+}
+
+.allFooter{
+    background-color: red;
+    width: 100%;
+}
+
+.footerUp{
+    display: flex;
+    align-items: center;
+    background-image: url("/data/common_data/footerBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Esto es lo que hace que se mueva la imagen del footer */
+    height: 100%;
+    min-height: 20em;
+}
+
+.formulario{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: white;
+    width: 25%;
+    padding: 1%;
+    font-family: 'Poppins';
+}
+
+.formulario p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.allForm{
+    display: flex;
+    margin-left: -0.5%;
+}
+
+.allForm textarea{
+    resize: none;
+    font-family: 'Poppins';
+    margin: 1%;
+}
+
+.userInfo{
+    margin-top: 1%;
+    width: 50%;
+}
+
+.userInfo textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.messages{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.messages .message{
+    height: 100%;
+}
+
+.submitButton{
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: #f6303e;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: white;
+    padding: 1%;
+    border: 1px solid #f6303e!important;
+}
+
+.submitButton:hover{
+   background-color: #a1050f;
+}
+
+.littleAbout{
+    margin-left: 3%;
+    color: black;
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+.littleAbout .linea{
+    border-color: #f6303e;
+}
+
+.footerDown{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.copy{
+    margin-left: 4%;
+}
+
+.copy p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.footerContact{
+    margin-left: 4%;
+}
+
+.footerContact p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.items{
+    margin-top: 3%;
+}
