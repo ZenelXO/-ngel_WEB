@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "angelhdzengineer",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

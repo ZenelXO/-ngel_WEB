@@ -48,7 +48,7 @@
     height: 10%;
     text-align: center;
     background-color: black;
-    background-image: url("/data/common_data/background3.png");
+    background-image: url("../data/common_data/background3.png");
     background-attachment: fixed; /* Esto es lo que hace que se mueva la imagen del footer */
 }
 
@@ -89,7 +89,7 @@
 .footerUp{
     display: flex;
     align-items: center;
-    background-image: url("/data/common_data/footerBackground.png");
+    background-image: url("../data/common_data/footerBackground.png");
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Esto es lo que hace que se mueva la imagen del footer */
