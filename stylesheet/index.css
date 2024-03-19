@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+}
+
+.allheader{
+    background-color: white;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+
+.logoandmore{
+    display: flex;
+    align-items: center;
+    height: 5em;
+}
+
+.logo{
+    margin-left: 5%;
+}
+
+.headerComponents{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-right: 5%;
+}
+
+.headerComponents a{
+    margin-left: 2%;
+    font-size: 17px;
+    font-family: 'Poppins';
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerComponents a:hover{
+    color: red;
+}
+
+.background{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    background-color: black;
+}
+
+.background img{
+    margin-top: 5%;
+}
+
+.littleInfo{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.littleInfo h1,p{
+    font-size: 30px;
+    font-family: 'Poppins';
+}
+
+.red{
+    color: red;
+    text-decoration: none;
+}
+
+.hugeInfo{
+    margin-top: 5%;
+    background-color: rgb(242, 242, 242);
+    text-align: center;
+}
+
+.boxofImages{
+    margin-inline: 10%;
+}
+
+.allFooter{
+    margin-top: 5%;
+    background-color: red;
+    width: 100%;
+}
+
+.footerUp{
+    display: flex;
+    align-items: center;
+    background-image: url("/data/common_data/footerBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Esto es lo que hace que se mueva la imagen del footer */
+    height: 100%;
+    min-height: 20em;
+}
+
+.formulario{
+    margin-top: 2%;
+    margin-left: 20%;
+    background-color: white;
+    width: 25%;
+    padding: 1%;
+    font-family: 'Poppins';
+}
+
+.formulario p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.allForm{
+    display: flex;
+    margin-left: -0.5%;
+}
+
+.allForm textarea{
+    resize: none;
+    font-family: 'Poppins';
+    margin: 1%;
+}
+
+.userInfo{
+    margin-top: 1%;
+    width: 50%;
+}
+
+.userInfo textarea{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.messages{
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 2%;
+}
+
+.messages .message{
+    height: 100%;
+}
+
+.submitButton{
+    margin-top: 2%;
+    cursor: pointer;
+    background-color: #f6303e;
+    border: none;
+    font-family: 'Poppins';
+    font-size: 17px;
+    color: white;
+    padding: 1%;
+    border: 1px solid #f6303e!important;
+}
+
+.submitButton:hover{
+   background-color: #a1050f;
+}
+
+.littleAbout{
+    margin-left: 3%;
+    color: black;
+}
+
+.littleAbout .linea{
+    border-color: #f6303e;
+}
+
+.footerDown{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.copy{
+    margin-left: 4%;
+}
+
+.copy p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.footerContact{
+    margin-left: 4%;
+}
+
+.footerContact p{
+    font-size: 20px;
+    font-family: 'Poppins';
+}
+
+.items{
+    margin-top: 3%;
+}
